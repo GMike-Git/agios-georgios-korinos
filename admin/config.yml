@@ -1,0 +1,1594 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: images
+public_folder: images
+locale: el
+collections:
+- name: site_content
+  label: Περιεχόμενο Ιστοσελίδας
+  files:
+  - name: content
+    label: Κείμενα σελίδας (5 γλώσσες)
+    file: content.json
+    fields:
+    - label: Αρχική — «Ιερά ΜονήΑγίου Γεωργίου Κορινού…»
+      name: top_h1
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Αρχική — «Ένα γυναικείο μοναστήρι του 16ου αιώνα, …»
+      name: top_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Αρχική — «Ιερά Μονή · Κορινός Πιερίας…»
+      name: top_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Αρχική — «Κύλιση…»
+      name: top_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Γενικά (Μενού) — «Άγιος Γεώργιος Κορινού…»
+      name: page_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Μενού Πλοήγησης — «Αρχική…»
+      name: nav-menu_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Μενού Πλοήγησης — «Ιστορικό…»
+      name: nav-menu_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Μενού Πλοήγησης — «Πολυμέσα…»
+      name: nav-menu_span_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Μενού Πλοήγησης — «Επικοινωνία…»
+      name: nav-menu_span_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Μενού Πλοήγησης — «Δωρεές…»
+      name: nav-menu_span_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ρυθμίσεις — «Φόντο…»
+      name: settings-panel_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η αυλή και το κωδωνοστάσιο…»
+      name: history_figcaption
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Στο εσωτερικό του καθολικού…»
+      name: history_figcaption_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Παλαιοί μαρμάρινοι κίονες στον κήπο…»
+      name: history_figcaption_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Μια από τις αρχαιότερες μονές της Πιερία…»
+      name: history_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η εικόνα του Αγίου Γεωργίου…»
+      name: history_h3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η Μονή του Αγίου Γεωργίου χρονολογείται …»
+      name: history_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Στο κέντρο της αυλής δεσπόζει το καθολικ…»
+      name: history_p_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η μονή διαδραμάτισε σημαντικό ρόλο στα δ…»
+      name: history_p_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Το παρεκκλήσι του Αγίου Νεκταρίου ανεγέρ…»
+      name: history_p_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η παλαιά εφέστιος εικόνα του Αγίου, στολ…»
+      name: history_p_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Ιστορία &amp; Καθολικό…»
+      name: history_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Ιστορικό — «Η εφέστιος εικόνα…»
+      name: history_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πολυμέσα — «Στιγμές από τη μονή…»
+      name: gallery_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πολυμέσα — «Πολυμέσα…»
+      name: gallery_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Τρεις γιορτές τον χρόνο…»
+      name: feasts_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Άγιος Γεώργιος ο Τροπαιοφόρος…»
+      name: feasts_h3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Άγιος Φανούριος…»
+      name: feasts_h3_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Άγιος Νεκτάριος…»
+      name: feasts_h3_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Η μονή πανηγυρίζει τρεις φορές τον χρόνο…»
+      name: feasts_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Η κύρια πανήγυρις της μονής, προς τιμήν …»
+      name: feasts_p_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Πανήγυρις στο ομώνυμο παρεκκλήσι, με αρτ…»
+      name: feasts_p_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Πανήγυρις στο παρεκκλήσι του Αγίου Νεκτα…»
+      name: feasts_p_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Ανάψτε ένα ψηφιακό κερί ως ένδειξη προσε…»
+      name: feasts_p_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Πανηγύρια…»
+      name: feasts_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «23 Απριλίου…»
+      name: feasts_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «27 Αυγούστου…»
+      name: feasts_span_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «9 Νοεμβρίου…»
+      name: feasts_span_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Πανηγύρια — «Προσευχή εξ αποστάσεως…»
+      name: feasts_span_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Ζωή προσευχής…»
+      name: community_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Η μονή φιλοξενεί σήμερα μια μικρή αδελφό…»
+      name: community_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Νυν ηγουμένη της μονής.…»
+      name: community_p_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Μέλος της αδελφότητας.…»
+      name: community_p_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Η Αδελφότητα…»
+      name: community_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Καθηγουμένη Αγαθονίκη…»
+      name: community_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Η Αδελφότητα — «Μοναχή Πολυχρονία…»
+      name: community_span_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Πληροφορίες επίσκεψης…»
+      name: visit_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Πώς να έρθετε…»
+      name: visit_h3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Κώδικας επίσκεψης…»
+      name: visit_h3_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Η μονή δεν δημοσιεύει σταθερό ωράριο επί…»
+      name: visit_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Όπως σε κάθε ορθόδοξη μονή, οι επισκέπτε…»
+      name: visit_p_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Η φωτογράφιση στο εσωτερικό του ναού συν…»
+      name: visit_p_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Επίσκεψη…»
+      name: visit_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Απόσταση από Κορινό…»
+      name: visit_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «χλμ…»
+      name: visit_span_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Απόσταση από θάλασσα…»
+      name: visit_span_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «μ.…»
+      name: visit_span_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Περιοχή…»
+      name: visit_span_6
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επίσκεψη — «Κορινός, Πιερία…»
+      name: visit_span_7
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Δωρεές — «Στηρίξτε τη μονή…»
+      name: donate_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Δωρεές — «Η μονή συντηρείται με τη βοήθεια των πισ…»
+      name: donate_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Δωρεές — «Μπορείτε να επικοινωνήσετε τηλεφωνικά γι…»
+      name: donate_p_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Δωρεές — «Στοιχεία τραπεζικού λογαριασμού θα προστ…»
+      name: donate_p_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Δωρεές — «Δωρεές…»
+      name: donate_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Επικοινωνήστε μαζί μας…»
+      name: contact_h2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Επικοινωνία…»
+      name: contact_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Διεύθυνση…»
+      name: contact_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «601 50 Κορινός, Πιερία, Ελλάδα…»
+      name: contact_span_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Τηλέφωνο…»
+      name: contact_span_4
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Εκκλησιαστική υπαγωγή…»
+      name: contact_span_5
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — «Ιερά Μητρόπολη Κίτρους, Κατερίνης &amp; …»
+      name: contact_span_6
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Βοηθός Προσκυνητών…»
+      name: assistant-panel_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Ιερά Μονή Αγίου Γεωργίου…»
+      name: assistant-panel_span_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Γεια σας! Ρωτήστε με κάτι από τα παρακάτ…»
+      name: assistant-questions_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Άναψε ένα κερί…»
+      name: flame_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Ιερά Μονή Αγίου Γεωργίου Κορινού · Πιερί…»
+      name: gmap-iframe_p
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Κινήστε το ποντίκι πάνω στην εικόνα για …»
+      name: panorama_caption
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Ρυθμίσεις…»
+      name: settings-trigger_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Άλλο — «Γλώσσα…»
+      name: theme-toggle_span
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
