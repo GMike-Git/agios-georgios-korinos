@@ -1,297 +1,17 @@
 {
-  "page_span": {
-    "el": "Άγιος Γεώργιος Κορινού",
-    "en": "Agios Georgios, Korinos",
-    "sr": "Agios Georgios, Korinos",
-    "bg": "Агиос Георгиос, Коринос",
-    "ro": "Agios Georgios, Korinos"
+  "community_h2": {
+    "el": "Ζωή προσευχής",
+    "en": "A life of prayer",
+    "sr": "Život u molitvi",
+    "bg": "Живот в молитва",
+    "ro": "O viață de rugăciune"
   },
-  "nav-menu_span": {
-    "el": "Αρχική",
-    "en": "Home",
-    "sr": "Početna",
-    "bg": "Начало",
-    "ro": "Acasă"
-  },
-  "nav-menu_span_2": {
-    "el": "Ιστορικό",
-    "en": "History",
-    "sr": "Istorija",
-    "bg": "История",
-    "ro": "Istorie"
-  },
-  "nav-menu_span_3": {
-    "el": "Πολυμέσα",
-    "en": "Media",
-    "sr": "Galerija",
-    "bg": "Галерия",
-    "ro": "Galerie"
-  },
-  "nav-menu_span_4": {
-    "el": "Επικοινωνία",
-    "en": "Contact",
-    "sr": "Kontakt",
-    "bg": "Контакти",
-    "ro": "Contact"
-  },
-  "nav-menu_span_5": {
-    "el": "Δωρεές",
-    "en": "Donate",
-    "sr": "Donacije",
-    "bg": "Дарения",
-    "ro": "Donații"
-  },
-  "settings-trigger_span": {
-    "el": "Ρυθμίσεις",
-    "en": "Settings",
-    "sr": "Podešavanja",
-    "bg": "Настройки",
-    "ro": "Setări"
-  },
-  "settings-panel_span": {
-    "el": "Φόντο",
-    "en": "Background",
-    "sr": "Pozadina",
-    "bg": "Фон",
-    "ro": "Fundal"
-  },
-  "theme-toggle_span": {
-    "el": "Γλώσσα",
-    "en": "Language",
-    "sr": "Jezik",
-    "bg": "Език",
-    "ro": "Limbă"
-  },
-  "top_span": {
-    "el": "Ιερά Μονή · Κορινός Πιερίας",
-    "en": "Holy Monastery · Korinos, Pieria",
-    "sr": "Sveti manastir · Korinos, Pierija",
-    "bg": "Свети манастир · Коринос, Пиерия",
-    "ro": "Sfânta Mănăstire · Korinos, Pieria"
-  },
-  "top_h1": {
-    "el": "Ιερά Μονή<br>Αγίου Γεωργίου Κορινού",
-    "en": "Holy Monastery of<br>Agios Georgios, Korinos",
-    "sr": "Sveti manastir<br>Svetog Georgija, Korinos",
-    "bg": "Свети манастир<br>„Свети Георги“, Коринос",
-    "ro": "Sfânta Mănăstire<br>Sfântul Gheorghe, Korinos"
-  },
-  "top_p": {
-    "el": "Ένα γυναικείο μοναστήρι του 16ου αιώνα, ένα χιλιόμετρο από τον Κορινό και επτακόσια μέτρα από τη θάλασσα του Θερμαϊκού.",
-    "en": "A 16th-century women's monastery, one kilometre from the village of Korinos and 700 metres from the Thermaikos coast.",
-    "sr": "Ženski manastir iz 16. veka, udaljen jedan kilometar od sela Korinos i 700 metara od obale Termaikosa.",
-    "bg": "Женски манастир от XVI век, на един километър от село Коринос и 700 метра от брега на Термаикос.",
-    "ro": "O mănăstire de maici din secolul al XVI-lea, la un kilometru de satul Korinos și 700 de metri de coasta Termaikos."
-  },
-  "top_span_2": {
-    "el": "Κύλιση",
-    "en": "Scroll",
-    "sr": "Skroluj",
-    "bg": "Превъртете",
-    "ro": "Derulează"
-  },
-  "history_span": {
-    "el": "Ιστορία &amp; Καθολικό",
-    "en": "History &amp; Katholikon",
-    "sr": "Istorija i Katolikon",
-    "bg": "История и Католикон",
-    "ro": "Istorie și Katholikon"
-  },
-  "history_h2": {
-    "el": "Μια από τις αρχαιότερες μονές της Πιερίας",
-    "en": "One of the oldest monasteries in Pieria",
-    "sr": "Jedan od najstarijih manastira u Pieriji",
-    "bg": "Един от най-старите манастири в Пиерия",
-    "ro": "Una dintre cele mai vechi mănăstiri din Pieria"
-  },
-  "history_p": {
-    "el": "<strong>Η Μονή του Αγίου Γεωργίου</strong> χρονολογείται στα μέσα του 16ου αιώνα — η παλαιότερη γνωστή αναφορά της βρίσκεται σε ένα τουρκικό χοτζέτι του 1561, που πιστοποιεί κτηματική περιουσία της μονής στον Κορινό. Σήμερα εκτείνεται σε επτά στρέμματα, περιφραγμένη με τοίχους δύο μέτρων, και λειτουργεί ως μετόχι της Ιεράς Μονής Αγίου Διονυσίου εν Ολύμπω, υπό την Ιερά Μητρόπολη Κίτρους, Κατερίνης και Πλαταμώνος.",
-    "en": "<strong>The Monastery of Agios Georgios</strong> dates to the mid-16th century — its earliest known mention appears in an Ottoman title deed (hüccet) from 1561, confirming the monastery's purchased land near Korinos. Today the grounds cover roughly seven stremmata (about 0.7 hectares), enclosed by two-metre walls. The monastery functions as a metochi (dependency) of the Monastery of Agios Dionysios on Mount Olympus, under the Metropolis of Kitros, Katerini and Platamonas.",
-    "sr": "<strong>Manastir Svetog Georgija</strong> datira iz sredine 16. veka — njegov najraniji poznati pomen nalazi se u osmanskom tapijskom dokumentu (hudžetu) iz 1561. godine, koji potvrđuje da je manastir kupio zemlju u blizini Korinosa. Danas se manastirski posed prostire na oko sedam stremata (približno 0,7 hektara), ograđen zidovima visine dva metra. Manastir funkcioniše kao metoh (podružnica) Manastira Svetog Dionisija na Olimpu, pod Mitropolijom Kitrosa, Katerinija i Platamonasa.",
-    "bg": "<strong>Манастирът „Свети Георги“</strong> датира от средата на XVI век — най-ранното известно споменаване е в османски документ за собственост (худжет) от 1561 г., потвърждаващ закупената от манастира земя близо до Коринос. Днес имотът заема около седем стремата (около 0,7 хектара), ограден с двуметрови стени. Манастирът функционира като метох (подворие) на манастира „Свети Дионисий“ на Олимп, под Митрополия Китрос, Катерини и Платамонас.",
-    "ro": "<strong>Mănăstirea Sfântul Gheorghe</strong> datează de la mijlocul secolului al XVI-lea — cea mai veche mențiune cunoscută apare într-un act otoman de proprietate (hüccet) din 1561, care confirmă terenul achiziționat de mănăstire lângă Korinos. Astăzi incinta acoperă aproximativ șapte stremata (circa 0,7 hectare), înconjurată de ziduri de doi metri. Mănăstirea funcționează ca metoc (dependință) al Mănăstirii Sfântul Dionisie de pe Muntele Olimp, sub Mitropolia Kitros, Katerini și Platamonas."
-  },
-  "history_p_2": {
-    "el": "Στο κέντρο της αυλής δεσπόζει το καθολικό, αφιερωμένο στον Άγιο Μεγαλομάρτυρα Γεώργιο τον Τροπαιοφόρο. Πρόκειται για μονόκλιτη, μονόχωρη βασιλική χωρίς τρούλο, με εξωνάρθηκα για τα κεριά και το ιερό βήμα χωρισμένο από τον κυρίως ναό με ξύλινο τέμπλο.",
-    "en": "At the centre of the courtyard stands the katholikon, dedicated to the Great Martyr George the Trophy-bearer. It is a single-nave basilica without a dome, with an exonarthex for candles and a wooden templon screening the sanctuary from the main body of the church.",
-    "sr": "U središtu dvorišta nalazi se katolikon, posvećen Svetom velikomučeniku Georgiju Pobedonoscu. To je jednobrodna bazilika bez kupole, sa spoljašnjim priprata za sveće i drvenim templonom koji odvaja oltar od glavnog dela hrama.",
-    "bg": "В центъра на двора се издига католиконът, посветен на великомъченик Георги Победоносец. Това е еднокорабна базилика без купол, с външен притвор за свещи и дървен темплон, отделящ олтара от основната част на храма.",
-    "ro": "În centrul curții se află katholikonul, dedicat Marelui Mucenic Gheorghe Purtătorul de Biruință. Este o bazilică cu o singură navă, fără cupolă, cu un exonartex pentru lumânări și o tâmplă de lemn care separă altarul de restul bisericii."
-  },
-  "history_p_3": {
-    "el": "Η μονή διαδραμάτισε σημαντικό ρόλο στα δύσκολα χρόνια της ιστορίας της περιοχής: υπήρξε καταφύγιο για τους πρόσφυγες της Μικρασιατικής καταστροφής του 1922, προσφέροντάς τους φιλοξενία, οικονομική και πνευματική στήριξη, και κράτησε άσβεστη τη φλόγα της πίστης στα χρόνια της Τουρκοκρατίας και της Κατοχής.",
-    "en": "The monastery played a meaningful role through difficult periods of local history: it sheltered refugees from the 1922 Asia Minor catastrophe, offering them hospitality, material and spiritual support, and it kept faith alive through the years of Ottoman rule and the wartime occupation.",
-    "sr": "Manastir je odigrao značajnu ulogu tokom teških perioda lokalne istorije: pružio je utočište izbeglicama iz Male Azijske katastrofe 1922. godine, nudeći im gostoprimstvo, materijalnu i duhovnu podršku, i održao je veru živom tokom godina osmanske vladavine i ratne okupacije.",
-    "bg": "Манастирът изиграл важна роля през тежки периоди от местната история: приютил бежанци от Малоазийската катастрофа през 1922 г., предлагайки им гостоприемство, материална и духовна подкрепа, и запазил вярата жива през годините на османско владичество и военната окупация.",
-    "ro": "Mănăstirea a jucat un rol important în perioadele dificile ale istoriei locale: a adăpostit refugiați din catastrofa din Asia Mică din 1922, oferindu-le ospitalitate, sprijin material și spiritual, și a păstrat credința vie în anii stăpânirii otomane și ai ocupației din timpul războiului."
-  },
-  "history_p_4": {
-    "el": "Το παρεκκλήσι του Αγίου Νεκταρίου ανεγέρθηκε το 1965 επί ηγουμενίας μοναχής Κυριακής και ανακαινίσθηκε εκ βάθρων το 2018, επί ηγουμενίας Γεροντίσσης Ειρήνης, με τη φροντίδα της νυν Καθηγουμένης, μοναχής Αγαθονίκης.",
-    "en": "The chapel of Agios Nektarios was built in 1965 under Abbess Kyriaki and was fully renovated in 2018 under Abbess Eirini, with the care of the present Abbess, Nun Agathoniki.",
-    "sr": "Kapela Svetog Nektarija izgrađena je 1965. godine za vreme igumanije Kirjaki i u potpunosti je obnovljena 2018. godine za vreme igumanije Irine, uz brigu sadašnje igumanije, monahinje Agatonike.",
-    "bg": "Параклисът „Свети Нектарий“ е построен през 1965 г. по времето на игуменка Кириаки и е основно реновиран през 2018 г. по времето на игуменка Ирини, с грижите на настоящата игуменка, монахиня Агатоника.",
-    "ro": "Paraclisul Sfântul Nectarie a fost construit în 1965 sub stăreția Maicii Kyriaki și a fost renovat complet în 2018 sub stăreția Maicii Eirini, cu grija actualei starețe, Maica Agathoniki."
-  },
-  "history_span_2": {
-    "el": "Η εφέστιος εικόνα",
-    "en": "The wonder-working icon",
-    "sr": "Čudotvorna ikona",
-    "bg": "Чудотворната икона",
-    "ro": "Icoana făcătoare de minuni"
-  },
-  "history_h3": {
-    "el": "Η εικόνα του Αγίου Γεωργίου",
-    "en": "The icon of Agios Georgios",
-    "sr": "Ikona Svetog Georgija",
-    "bg": "Иконата на Свети Георги",
-    "ro": "Icoana Sfântului Gheorghe"
-  },
-  "history_p_5": {
-    "el": "Η παλαιά εφέστιος εικόνα του Αγίου, στολισμένη με τάματα των πιστών, θεωρείται θαυματουργή και αποτελεί το κέντρο προσκυνήματος της μονής.",
-    "en": "The old icon of the saint, adorned with votive offerings from the faithful, is held to be wonder-working and is the heart of pilgrimage to the monastery.",
-    "sr": "Stara ikona sveca, ukrašena zavetnim prilozima vernika, smatra se čudotvornom i predstavlja srce hodočašća u manastir.",
-    "bg": "Старата икона на светеца, украсена с приношения от вярващите, се смята за чудотворна и е сърцето на поклонничеството към манастира.",
-    "ro": "Vechea icoană a sfântului, împodobită cu daruri de mulțumire ale credincioșilor, este considerată făcătoare de minuni și reprezintă inima pelerinajului la mănăstire."
-  },
-  "history_figcaption": {
-    "el": "Η αυλή και το κωδωνοστάσιο",
-    "en": "The courtyard and bell tower",
-    "sr": "Dvorište i zvonik",
-    "bg": "Дворът и камбанарията",
-    "ro": "Curtea și clopotnița"
-  },
-  "history_figcaption_2": {
-    "el": "Στο εσωτερικό του καθολικού",
-    "en": "Inside the katholikon",
-    "sr": "Unutrašnjost katolikona",
-    "bg": "Вътре в католикона",
-    "ro": "În interiorul katholikonului"
-  },
-  "history_figcaption_3": {
-    "el": "Παλαιοί μαρμάρινοι κίονες στον κήπο",
-    "en": "Old marble columns in the garden",
-    "sr": "Stari mermerni stubovi u vrtu",
-    "bg": "Стари мраморни колони в градината",
-    "ro": "Coloane vechi de marmură în grădină"
-  },
-  "gallery_span": {
-    "el": "Πολυμέσα",
-    "en": "Media",
-    "sr": "Galerija",
-    "bg": "Галерия",
-    "ro": "Galerie"
-  },
-  "gallery_h2": {
-    "el": "Στιγμές από τη μονή",
-    "en": "Glimpses of the monastery",
-    "sr": "Trenuci iz manastira",
-    "bg": "Мигове от манастира",
-    "ro": "Imagini din mănăstire"
-  },
-  "feasts_span": {
-    "el": "Πανηγύρια",
-    "en": "Feast Days",
-    "sr": "Praznici",
-    "bg": "Празници",
-    "ro": "Sărbători"
-  },
-  "feasts_h2": {
-    "el": "Τρεις γιορτές τον χρόνο",
-    "en": "Three feasts a year",
-    "sr": "Tri praznika godišnje",
-    "bg": "Три празника годишно",
-    "ro": "Trei sărbători pe an"
-  },
-  "feasts_p": {
-    "el": "Η μονή πανηγυρίζει τρεις φορές τον χρόνο, με αγρυπνίες, εσπερινούς και τη λιτάνευση της εικόνας.",
-    "en": "The monastery celebrates three times a year, with vigils, vespers, and the procession of the icon.",
-    "sr": "Manastir slavi tri puta godišnje, uz bdenja, večernja bogosluženja i litiju sa ikonom.",
-    "bg": "Манастирът празнува три пъти годишно с бдения, вечерни и литийно шествие с иконата.",
-    "ro": "Mănăstirea sărbătorește de trei ori pe an, cu privegheri, vecernii și procesiunea icoanei."
-  },
-  "feasts_span_2": {
-    "el": "23 Απριλίου",
-    "en": "April 23",
-    "sr": "23. april",
-    "bg": "23 април",
-    "ro": "23 aprilie"
-  },
-  "feasts_h3": {
-    "el": "Άγιος Γεώργιος ο Τροπαιοφόρος",
-    "en": "St. George the Trophy-bearer",
-    "sr": "Sveti Georgije Pobedonosac",
-    "bg": "Свети Георги Победоносец",
-    "ro": "Sfântul Gheorghe Purtătorul de Biruință"
-  },
-  "feasts_p_2": {
-    "el": "Η κύρια πανήγυρις της μονής, προς τιμήν του πολιούχου Αγίου.",
-    "en": "The monastery's main feast, in honour of its patron saint.",
-    "sr": "Glavna slava manastira, u čast njegovog sveca zaštitnika.",
-    "bg": "Главният празник на манастира, в чест на неговия покровител.",
-    "ro": "Sărbătoarea principală a mănăstirii, în cinstea sfântului ei ocrotitor."
-  },
-  "feasts_span_3": {
-    "el": "27 Αυγούστου",
-    "en": "August 27",
-    "sr": "27. avgust",
-    "bg": "27 август",
-    "ro": "27 august"
-  },
-  "feasts_h3_2": {
-    "el": "Άγιος Φανούριος",
-    "en": "St. Fanourios",
-    "sr": "Sveti Fanurije",
-    "bg": "Свети Фанурий",
-    "ro": "Sfântul Fanurie"
-  },
-  "feasts_p_3": {
-    "el": "Πανήγυρις στο ομώνυμο παρεκκλήσι, με αρτοκλασία και λιτανεία.",
-    "en": "Celebrated at the chapel dedicated to the saint, with the blessing of bread and a procession.",
-    "sr": "Proslavlja se u kapeli posvećenoj svecu, uz blagosiljanje hlebova i litiju.",
-    "bg": "Празнува се в параклиса, посветен на светеца, с освещаване на хляб и шествие.",
-    "ro": "Se sărbătorește la paraclisul dedicat sfântului, cu binecuvântarea pâinii și o procesiune."
-  },
-  "feasts_span_4": {
-    "el": "9 Νοεμβρίου",
-    "en": "November 9",
-    "sr": "9. novembar",
-    "bg": "9 ноември",
-    "ro": "9 noiembrie"
-  },
-  "feasts_h3_3": {
-    "el": "Άγιος Νεκτάριος",
-    "en": "St. Nektarios",
-    "sr": "Sveti Nektarije",
-    "bg": "Свети Нектарий",
-    "ro": "Sfântul Nectarie"
-  },
-  "feasts_p_4": {
-    "el": "Πανήγυρις στο παρεκκλήσι του Αγίου Νεκταρίου, ανακαινισμένο το 2018.",
-    "en": "Celebrated at the chapel of St. Nektarios, renovated in 2018.",
-    "sr": "Proslavlja se u kapeli Svetog Nektarija, obnovljenoj 2018. godine.",
-    "bg": "Празнува се в параклиса „Свети Нектарий“, реновиран през 2018 г.",
-    "ro": "Se sărbătorește la paraclisul Sfântul Nectarie, renovat în 2018."
-  },
-  "feasts_span_5": {
-    "el": "Προσευχή εξ αποστάσεως",
-    "en": "A prayer from afar",
-    "sr": "Molitva iz daljine",
-    "bg": "Молитва отдалеч",
-    "ro": "O rugăciune de departe"
-  },
-  "feasts_p_5": {
-    "el": "Ανάψτε ένα ψηφιακό κερί ως ένδειξη προσευχής, όπου κι αν βρίσκεστε.",
-    "en": "Light a small digital candle as a gesture of prayer, wherever you are.",
-    "sr": "Upalite malu digitalnu sveću kao gest molitve, ma gde da se nalazite.",
-    "bg": "Запалете малка дигитална свещ като жест на молитва, където и да се намирате.",
-    "ro": "Aprindeți o mică lumânare digitală ca gest de rugăciune, oriunde v-ați afla."
-  },
-  "flame_span": {
-    "el": "Άναψε ένα κερί",
-    "en": "Light a candle",
-    "sr": "Upali sveću",
-    "bg": "Запалете свещ",
-    "ro": "Aprinde o lumânare"
+  "contact_span_6": {
+    "el": "Ιερά Μητρόπολη Κίτρους, Κατερίνης &amp; Πλαταμώνος",
+    "en": "Metropolis of Kitros, Katerini &amp; Platamonas",
+    "sr": "Mitropolija Kitrosa, Katerinija i Platamonasa",
+    "bg": "Митрополия Китрос, Катерини и Платамонас",
+    "ro": "Mitropolia Kitros, Katerini și Platamonas"
   },
   "community_span": {
     "el": "Η Αδελφότητα",
@@ -300,152 +20,19 @@
     "bg": "Сестринството",
     "ro": "Obștea de maici"
   },
-  "community_h2": {
-    "el": "Ζωή προσευχής",
-    "en": "A life of prayer",
-    "sr": "Život u molitvi",
-    "bg": "Живот в молитва",
-    "ro": "O viață de rugăciune"
+  "nav-menu_span": {
+    "el": "Αρχική",
+    "en": "Home",
+    "sr": "Početna",
+    "bg": "Начало",
+    "ro": "Acasă"
   },
-  "community_p": {
-    "el": "Η μονή φιλοξενεί σήμερα μια μικρή αδελφότητα μοναζουσών, αφιερωμένων στην προσευχή, την ακολουθία των ωρών και τη φιλοξενία των προσκυνητών.",
-    "en": "The monastery is home today to a small sisterhood, devoted to prayer, the daily cycle of services, and the welcome of pilgrims.",
-    "sr": "Manastir danas okuplja malo sestrinstvo, posvećeno molitvi, svakodnevnom krugu bogosluženja i dočeku hodočasnika.",
-    "bg": "Днес манастирът е дом на малко сестринство, посветено на молитвата, ежедневния цикъл от богослужения и посрещането на поклонници.",
-    "ro": "Astăzi mănăstirea găzduiește o mică obște de maici, dedicate rugăciunii, ciclului zilnic de slujbe și primirii pelerinilor."
-  },
-  "community_span_2": {
-    "el": "Καθηγουμένη Αγαθονίκη",
-    "en": "Abbess Agathoniki",
-    "sr": "Igumanija Agatonika",
-    "bg": "Игуменка Агатоника",
-    "ro": "Stareța Agathoniki"
-  },
-  "community_p_2": {
-    "el": "Νυν ηγουμένη της μονής.",
-    "en": "Present abbess of the monastery.",
-    "sr": "Sadašnja igumanija manastira.",
-    "bg": "Настояща игуменка на манастира.",
-    "ro": "Actuala stareță a mănăstirii."
-  },
-  "community_span_3": {
-    "el": "Μοναχή Πολυχρονία",
-    "en": "Nun Polychronia",
-    "sr": "Monahinja Polihronija",
-    "bg": "Монахиня Полихрония",
-    "ro": "Maica Polychronia"
-  },
-  "community_p_3": {
-    "el": "Μέλος της αδελφότητας.",
-    "en": "Member of the sisterhood.",
-    "sr": "Članica sestrinstva.",
-    "bg": "Член на сестринството.",
-    "ro": "Membră a obștii."
-  },
-  "visit_span": {
-    "el": "Επίσκεψη",
-    "en": "Visiting",
-    "sr": "Poseta",
-    "bg": "Посещение",
-    "ro": "Vizitare"
-  },
-  "visit_h2": {
-    "el": "Πληροφορίες επίσκεψης",
-    "en": "Planning your visit",
-    "sr": "Planiranje posete",
-    "bg": "Планиране на посещението",
-    "ro": "Planificarea vizitei"
-  },
-  "visit_h3": {
-    "el": "Πώς να έρθετε",
-    "en": "Getting here",
-    "sr": "Kako doći",
-    "bg": "Как да стигнете",
-    "ro": "Cum ajungeți"
-  },
-  "visit_span_2": {
-    "el": "Απόσταση από Κορινό",
-    "en": "From Korinos village",
-    "sr": "Od sela Korinos",
-    "bg": "От село Коринос",
-    "ro": "De la satul Korinos"
-  },
-  "visit_span_3": {
-    "el": "χλμ",
-    "en": "km",
-    "sr": "km",
-    "bg": "км",
-    "ro": "km"
-  },
-  "visit_span_4": {
-    "el": "Απόσταση από θάλασσα",
-    "en": "From the coast",
-    "sr": "Od obale",
-    "bg": "От брега",
-    "ro": "De la coastă"
-  },
-  "visit_span_5": {
-    "el": "μ.",
-    "en": "m",
-    "sr": "m",
-    "bg": "м",
-    "ro": "m"
-  },
-  "visit_span_6": {
-    "el": "Περιοχή",
-    "en": "Region",
-    "sr": "Region",
-    "bg": "Регион",
-    "ro": "Regiune"
-  },
-  "visit_span_7": {
-    "el": "Κορινός, Πιερία",
-    "en": "Korinos, Pieria",
-    "sr": "Korinos, Pierija",
-    "bg": "Коринос, Пиерия",
-    "ro": "Korinos, Pieria"
-  },
-  "visit_p": {
-    "el": "Η μονή δεν δημοσιεύει σταθερό ωράριο επίσκεψης online — καλέστε πριν την επίσκεψή σας για να επιβεβαιώσετε τις ώρες, ιδίως τις ημέρες πανηγύρεων.",
-    "en": "The monastery doesn't publish fixed visiting hours online — please call ahead to confirm timing, especially around feast days.",
-    "sr": "Manastir ne objavljuje fiksno radno vreme na internetu — molimo pozovite unapred da potvrdite termin, posebno oko praznika.",
-    "bg": "Манастирът не публикува фиксирано работно време онлайн — моля, обадете се предварително, за да потвърдите часовете, особено около празници.",
-    "ro": "Mănăstirea nu publică un program fix de vizitare online — vă rugăm sunați în avans pentru a confirma orarul, mai ales în preajma sărbătorilor."
-  },
-  "visit_h3_2": {
-    "el": "Κώδικας επίσκεψης",
-    "en": "Visitor etiquette",
-    "sr": "Pravila ponašanja za posetioce",
-    "bg": "Правила за посетители",
-    "ro": "Eticheta vizitatorilor"
-  },
-  "visit_p_2": {
-    "el": "Όπως σε κάθε ορθόδοξη μονή, οι επισκέπτες καλούνται να φορούν διακριτική, σεμνή ενδυμασία — μακριά ρούχα και καλυμμένους ώμους — και να διατηρούν ησυχία κατά τη διάρκεια των ακολουθιών.",
-    "en": "As at any Orthodox monastery, visitors are asked to dress modestly — covered shoulders and knees — and to keep a quiet, respectful presence during services.",
-    "sr": "Kao i u svakom pravoslavnom manastiru, od posetilaca se traži skromna odeća — pokriveni ramena i kolena — i tiho, dostojanstveno ponašanje tokom bogosluženja.",
-    "bg": "Както във всеки православен манастир, от посетителите се очаква скромно облекло — покрити рамене и колене — и тихо, уважително присъствие по време на службите.",
-    "ro": "Ca la orice mănăstire ortodoxă, vizitatorii sunt rugați să se îmbrace modest — umeri și genunchi acoperiți — și să păstreze o prezență liniștită și respectuoasă în timpul slujbelor."
-  },
-  "visit_p_3": {
-    "el": "Η φωτογράφιση στο εσωτερικό του ναού συνήθως αποφεύγεται κατά τη διάρκεια της λατρείας — ρωτήστε τις αδελφές αν έχετε αμφιβολία.",
-    "en": "Photography inside the church is usually avoided during services — ask one of the sisters if you're unsure.",
-    "sr": "Fotografisanje unutar hrama se obično izbegava tokom bogosluženja — pitajte jednu od sestara ako niste sigurni.",
-    "bg": "Снимането вътре в храма обикновено се избягва по време на службите — попитайте някоя от сестрите, ако не сте сигурни.",
-    "ro": "Fotografierea în interiorul bisericii este de obicei evitată în timpul slujbelor — întrebați una dintre maici dacă nu sunteți sigur."
-  },
-  "donate_span": {
-    "el": "Δωρεές",
-    "en": "Donations",
-    "sr": "Donacije",
-    "bg": "Дарения",
-    "ro": "Donații"
-  },
-  "donate_h2": {
-    "el": "Στηρίξτε τη μονή",
-    "en": "Support the monastery",
-    "sr": "Podržite manastir",
-    "bg": "Подкрепете манастира",
-    "ro": "Susțineți mănăstirea"
+  "history_figcaption_2": {
+    "el": "Στο εσωτερικό του καθολικού",
+    "en": "Inside the katholikon",
+    "sr": "Unutrašnjost katolikona",
+    "bg": "Вътре в католикона",
+    "ro": "În interiorul katholikonului"
   },
   "donate_p": {
     "el": "Η μονή συντηρείται με τη βοήθεια των πιστών. Όσοι επιθυμούν να στηρίξουν το έργο και τη φιλοξενία της μονής, μπορούν να επικοινωνήσουν απευθείας μαζί μας.",
@@ -454,19 +41,54 @@
     "bg": "Манастирът се издържа с подкрепата на вярващите. Ако желаете да помогнете за неговата дейност и гостоприемство, свържете се директно с нас.",
     "ro": "Mănăstirea este susținută prin sprijinul credincioșilor. Dacă doriți să ajutați la activitatea și ospitalitatea sa, vă rugăm să ne contactați direct."
   },
-  "donate_p_2": {
-    "el": "Μπορείτε να επικοινωνήσετε τηλεφωνικά για να μάθετε πώς μπορείτε να βοηθήσετε — είτε με μια δωρεά, είτε με την προσφορά χρόνου ή αγαθών, είτε απλώς επισκεπτόμενοι τη μονή.",
-    "en": "You're welcome to call and ask how you can help — whether with a donation, an offering of time or goods, or simply by visiting.",
-    "sr": "Slobodno nas pozovite i pitajte kako možete pomoći — bilo donacijom, ponudom vremena ili dobara, ili jednostavno posetom.",
-    "bg": "Свободни сте да се обадите и попитате как можете да помогнете — било то с дарение, с предложение за време или стоки, или просто с посещение.",
-    "ro": "Sunteți binevenit să sunați și să întrebați cum puteți ajuta — fie printr-o donație, printr-o ofertă de timp sau bunuri, fie pur și simplu vizitându-ne."
+  "history_figcaption_3": {
+    "el": "Παλαιοί μαρμάρινοι κίονες στον κήπο",
+    "en": "Old marble columns in the garden",
+    "sr": "Stari mermerni stubovi u vrtu",
+    "bg": "Стари мраморни колони в градината",
+    "ro": "Coloane vechi de marmură în grădină"
   },
-  "donate_p_3": {
-    "el": "Στοιχεία τραπεζικού λογαριασμού θα προστεθούν εδώ όποτε μας τα παρέχει η μονή.",
-    "en": "Bank transfer details will be added here once provided by the monastery.",
-    "sr": "Podaci za bankovni prenos biće dodati ovde čim ih manastir dostavi.",
-    "bg": "Данните за банков превод ще бъдат добавени тук, след като бъдат предоставени от манастира.",
-    "ro": "Detaliile pentru transfer bancar vor fi adăugate aici de îndată ce vor fi furnizate de mănăstire."
+  "feasts_p": {
+    "el": "Η μονή πανηγυρίζει τρεις φορές τον χρόνο, με αγρυπνίες, εσπερινούς και τη λιτάνευση της εικόνας.",
+    "en": "The monastery celebrates three times a year, with vigils, vespers, and the procession of the icon.",
+    "sr": "Manastir slavi tri puta godišnje, uz bdenja, večernja bogosluženja i litiju sa ikonom.",
+    "bg": "Манастирът празнува три пъти годишно с бдения, вечерни и литийно шествие с иконата.",
+    "ro": "Mănăstirea sărbătorește de trei ori pe an, cu privegheri, vecernii și procesiunea icoanei."
+  },
+  "history_p": {
+    "el": "<strong>Η Μονή του Αγίου Γεωργίου</strong> χρονολογείται στα μέσα του 16ου αιώνα — η παλαιότερη γνωστή αναφορά της βρίσκεται σε ένα τουρκικό χοτζέτι του 1561, που πιστοποιεί κτηματική περιουσία της μονής στον Κορινό. Σήμερα εκτείνεται σε επτά στρέμματα, περιφραγμένη με τοίχους δύο μέτρων, και λειτουργεί ως μετόχι της Ιεράς Μονής Αγίου Διονυσίου εν Ολύμπω, υπό την Ιερά Μητρόπολη Κίτρους, Κατερίνης και Πλαταμώνος.",
+    "en": "<strong>The Monastery of Agios Georgios</strong> dates to the mid-16th century — its earliest known mention appears in an Ottoman title deed (hüccet) from 1561, confirming the monastery's purchased land near Korinos. Today the grounds cover roughly seven stremmata (about 0.7 hectares), enclosed by two-metre walls. The monastery functions as a metochi (dependency) of the Monastery of Agios Dionysios on Mount Olympus, under the Metropolis of Kitros, Katerini and Platamonas.",
+    "sr": "<strong>Manastir Svetog Georgija</strong> datira iz sredine 16. veka — njegov najraniji poznati pomen nalazi se u osmanskom tapijskom dokumentu (hudžetu) iz 1561. godine, koji potvrđuje da je manastir kupio zemlju u blizini Korinosa. Danas se manastirski posed prostire na oko sedam stremata (približno 0,7 hektara), ograđen zidovima visine dva metra. Manastir funkcioniše kao metoh (podružnica) Manastira Svetog Dionisija na Olimpu, pod Mitropolijom Kitrosa, Katerinija i Platamonasa.",
+    "bg": "<strong>Манастирът „Свети Георги“</strong> датира от средата на XVI век — най-ранното известно споменаване е в османски документ за собственост (худжет) от 1561 г., потвърждаващ закупената от манастира земя близо до Коринос. Днес имотът заема около седем стремата (около 0,7 хектара), ограден с двуметрови стени. Манастирът функционира като метох (подворие) на манастира „Свети Дионисий“ на Олимп, под Митрополия Китрос, Катерини и Платамонас.",
+    "ro": "<strong>Mănăstirea Sfântul Gheorghe</strong> datează de la mijlocul secolului al XVI-lea — cea mai veche mențiune cunoscută apare într-un act otoman de proprietate (hüccet) din 1561, care confirmă terenul achiziționat de mănăstire lângă Korinos. Astăzi incinta acoperă aproximativ șapte stremata (circa 0,7 hectare), înconjurată de ziduri de doi metri. Mănăstirea funcționează ca metoc (dependință) al Mănăstirii Sfântul Dionisie de pe Muntele Olimp, sub Mitropolia Kitros, Katerini și Platamonas."
+  },
+  "top_p": {
+    "el": "Ένα γυναικείο μοναστήρι του 16ου αιώνα, ένα χιλιόμετρο από τον Κορινό και επτακόσια μέτρα από τη θάλασσα του Θερμαϊκού.",
+    "en": "A 16th-century women's monastery, one kilometre from the village of Korinos and 700 metres from the Thermaikos coast.",
+    "sr": "Ženski manastir iz 16. veka, udaljen jedan kilometar od sela Korinos i 700 metara od obale Termaikosa.",
+    "bg": "Женски манастир от XVI век, на един километър от село Коринос и 700 метра от брега на Термаикос.",
+    "ro": "O mănăstire de maici din secolul al XVI-lea, la un kilometru de satul Korinos și 700 de metri de coasta Termaikos."
+  },
+  "assistant-panel_span_2": {
+    "el": "Ιερά Μονή Αγίου Γεωργίου",
+    "en": "Holy Monastery of Agios Georgios",
+    "sr": "Sveti manastir Svetog Georgija",
+    "bg": "Свети манастир „Свети Георги“",
+    "ro": "Sfânta Mănăstire Sfântul Gheorghe"
+  },
+  "top_span_2": {
+    "el": "Κύλιση",
+    "en": "Scroll",
+    "sr": "Skroluj",
+    "bg": "Превъртете",
+    "ro": "Derulează"
+  },
+  "history_span_2": {
+    "el": "Η εφέστιος εικόνα",
+    "en": "The wonder-working icon",
+    "sr": "Čudotvorna ikona",
+    "bg": "Чудотворната икона",
+    "ro": "Icoana făcătoare de minuni"
   },
   "contact_span": {
     "el": "Επικοινωνία",
@@ -482,40 +104,19 @@
     "bg": "Свържете се с нас",
     "ro": "Contactați-ne"
   },
-  "contact_span_2": {
-    "el": "Διεύθυνση",
-    "en": "Address",
-    "sr": "Adresa",
-    "bg": "Адрес",
-    "ro": "Adresă"
+  "feasts_span_2": {
+    "el": "23 Απριλίου",
+    "en": "April 23",
+    "sr": "23. april",
+    "bg": "23 април",
+    "ro": "23 aprilie"
   },
-  "contact_span_3": {
-    "el": "601 50 Κορινός, Πιερία, Ελλάδα",
-    "en": "601 50 Korinos, Pieria, Greece",
-    "sr": "601 50 Korinos, Pierija, Grčka",
-    "bg": "601 50 Коринос, Пиерия, Гърция",
-    "ro": "601 50 Korinos, Pieria, Grecia"
-  },
-  "contact_span_4": {
-    "el": "Τηλέφωνο",
-    "en": "Phone",
-    "sr": "Telefon",
-    "bg": "Телефон",
-    "ro": "Telefon"
-  },
-  "contact_span_5": {
-    "el": "Εκκλησιαστική υπαγωγή",
-    "en": "Ecclesiastical jurisdiction",
-    "sr": "Crkvena nadležnost",
-    "bg": "Църковна юрисдикция",
-    "ro": "Jurisdicție bisericească"
-  },
-  "contact_span_6": {
-    "el": "Ιερά Μητρόπολη Κίτρους, Κατερίνης &amp; Πλαταμώνος",
-    "en": "Metropolis of Kitros, Katerini &amp; Platamonas",
-    "sr": "Mitropolija Kitrosa, Katerinija i Platamonasa",
-    "bg": "Митрополия Китрос, Катерини и Платамонас",
-    "ro": "Mitropolia Kitros, Katerini și Platamonas"
+  "feasts_span_3": {
+    "el": "27 Αυγούστου",
+    "en": "August 27",
+    "sr": "27. avgust",
+    "bg": "27 август",
+    "ro": "27 august"
   },
   "gmap-iframe_p": {
     "el": "Ιερά Μονή Αγίου Γεωργίου Κορινού · Πιερία",
@@ -524,19 +125,61 @@
     "bg": "Свети манастир „Свети Георги“, Коринос · Пиерия",
     "ro": "Sfânta Mănăstire Sfântul Gheorghe, Korinos · Pieria"
   },
-  "assistant-panel_span": {
-    "el": "Βοηθός Προσκυνητών",
-    "en": "Pilgrim Assistant",
-    "sr": "Pomoćnik za hodočasnike",
-    "bg": "Помощник за поклонници",
-    "ro": "Asistent pentru pelerini"
+  "feasts_h3_2": {
+    "el": "Άγιος Φανούριος",
+    "en": "St. Fanourios",
+    "sr": "Sveti Fanurije",
+    "bg": "Свети Фанурий",
+    "ro": "Sfântul Fanurie"
   },
-  "assistant-panel_span_2": {
-    "el": "Ιερά Μονή Αγίου Γεωργίου",
-    "en": "Holy Monastery of Agios Georgios",
-    "sr": "Sveti manastir Svetog Georgija",
-    "bg": "Свети манастир „Свети Георги“",
-    "ro": "Sfânta Mănăstire Sfântul Gheorghe"
+  "history_figcaption": {
+    "el": "Η αυλή και το κωδωνοστάσιο",
+    "en": "The courtyard and bell tower",
+    "sr": "Dvorište i zvonik",
+    "bg": "Дворът и камбанарията",
+    "ro": "Curtea și clopotnița"
+  },
+  "community_p_2": {
+    "el": "Νυν ηγουμένη της μονής.",
+    "en": "Present abbess of the monastery.",
+    "sr": "Sadašnja igumanija manastira.",
+    "bg": "Настояща игуменка на манастира.",
+    "ro": "Actuala stareță a mănăstirii."
+  },
+  "feasts_span_4": {
+    "el": "9 Νοεμβρίου",
+    "en": "November 9",
+    "sr": "9. novembar",
+    "bg": "9 ноември",
+    "ro": "9 noiembrie"
+  },
+  "feasts_h3_3": {
+    "el": "Άγιος Νεκτάριος",
+    "en": "St. Nektarios",
+    "sr": "Sveti Nektarije",
+    "bg": "Свети Нектарий",
+    "ro": "Sfântul Nectarie"
+  },
+  "community_p_3": {
+    "el": "Μέλος της αδελφότητας.",
+    "en": "Member of the sisterhood.",
+    "sr": "Članica sestrinstva.",
+    "bg": "Член на сестринството.",
+    "ro": "Membră a obștii."
+  },
+  "feasts_span_5": {
+    "el": "Προσευχή εξ αποστάσεως",
+    "en": "A prayer from afar",
+    "sr": "Molitva iz daljine",
+    "bg": "Молитва отдалеч",
+    "ro": "O rugăciune de departe"
+  },
+  "settings-panel_span": {
+    "el": "Φόντο",
+    "en": "Background",
+    "sr": "Pozadina",
+    "bg": "Фон",
+    "ro": "Fundal"
   },
   "assistant-questions_p": {
     "el": "Γεια σας! Ρωτήστε με κάτι από τα παρακάτω:",
@@ -545,11 +188,368 @@
     "bg": "Здравейте! Задайте ми въпрос по-долу:",
     "ro": "Bună! Întrebați-mă ceva mai jos:"
   },
+  "visit_p_2": {
+    "el": "Όπως σε κάθε ορθόδοξη μονή, οι επισκέπτες καλούνται να φορούν διακριτική, σεμνή ενδυμασία — μακριά ρούχα και καλυμμένους ώμους — και να διατηρούν ησυχία κατά τη διάρκεια των ακολουθιών.",
+    "en": "As at any Orthodox monastery, visitors are asked to dress modestly — covered shoulders and knees — and to keep a quiet, respectful presence during services.",
+    "sr": "Kao i u svakom pravoslavnom manastiru, od posetilaca se traži skromna odeća — pokriveni ramena i kolena — i tiho, dostojanstveno ponašanje tokom bogosluženja.",
+    "bg": "Както във всеки православен манастир, от посетителите се очаква скромно облекло — покрити рамене и колене — и тихо, уважително присъствие по време на службите.",
+    "ro": "Ca la orice mănăstire ortodoxă, vizitatorii sunt rugați să se îmbrace modest — umeri și genunchi acoperiți — și să păstreze o prezență liniștită și respectuoasă în timpul slujbelor."
+  },
+  "visit_p_3": {
+    "el": "Η φωτογράφιση στο εσωτερικό του ναού συνήθως αποφεύγεται κατά τη διάρκεια της λατρείας — ρωτήστε τις αδελφές αν έχετε αμφιβολία.",
+    "en": "Photography inside the church is usually avoided during services — ask one of the sisters if you're unsure.",
+    "sr": "Fotografisanje unutar hrama se obično izbegava tokom bogosluženja — pitajte jednu od sestara ako niste sigurni.",
+    "bg": "Снимането вътре в храма обикновено се избягва по време на службите — попитайте някоя от сестрите, ако не сте сигурни.",
+    "ro": "Fotografierea în interiorul bisericii este de obicei evitată în timpul slujbelor — întrebați una dintre maici dacă nu sunteți sigur."
+  },
+  "visit_span_2": {
+    "el": "Απόσταση από Κορινό",
+    "en": "From Korinos village",
+    "sr": "Od sela Korinos",
+    "bg": "От село Коринос",
+    "ro": "De la satul Korinos"
+  },
+  "theme-toggle_span": {
+    "el": "Γλώσσα",
+    "en": "Language",
+    "sr": "Jezik",
+    "bg": "Език",
+    "ro": "Limbă"
+  },
+  "visit_h3_2": {
+    "el": "Κώδικας επίσκεψης",
+    "en": "Visitor etiquette",
+    "sr": "Pravila ponašanja za posetioce",
+    "bg": "Правила за посетители",
+    "ro": "Eticheta vizitatorilor"
+  },
+  "visit_span_3": {
+    "el": "χλμ",
+    "en": "km",
+    "sr": "km",
+    "bg": "км",
+    "ro": "km"
+  },
+  "community_span_2": {
+    "el": "Καθηγουμένη Αγαθονίκη",
+    "en": "Abbess Agathoniki",
+    "sr": "Igumanija Agatonika",
+    "bg": "Игуменка Агатоника",
+    "ro": "Stareța Agathoniki"
+  },
+  "nav-menu_span_2": {
+    "el": "Ιστορικό",
+    "en": "History",
+    "sr": "Istorija",
+    "bg": "История",
+    "ro": "Istorie"
+  },
+  "visit_span_4": {
+    "el": "Απόσταση από θάλασσα-",
+    "en": "From the coast",
+    "sr": "Od obale",
+    "bg": "От брега",
+    "ro": "De la coastă"
+  },
+  "donate_p_2": {
+    "el": "Μπορείτε να επικοινωνήσετε τηλεφωνικά για να μάθετε πώς μπορείτε να βοηθήσετε — είτε με μια δωρεά, είτε με την προσφορά χρόνου ή αγαθών, είτε απλώς επισκεπτόμενοι τη μονή.",
+    "en": "You're welcome to call and ask how you can help — whether with a donation, an offering of time or goods, or simply by visiting.",
+    "sr": "Slobodno nas pozovite i pitajte kako možete pomoći — bilo donacijom, ponudom vremena ili dobara, ili jednostavno posetom.",
+    "bg": "Свободни сте да се обадите и попитате как можете да помогнете — било то с дарение, с предложение за време или стоки, или просто с посещение.",
+    "ro": "Sunteți binevenit să sunați și să întrebați cum puteți ajuta — fie printr-o donație, printr-o ofertă de timp sau bunuri, fie pur și simplu vizitându-ne."
+  },
+  "top_h1": {
+    "el": "Ιερά Μονή<br>Αγίου Γεωργίου Κορινού",
+    "en": "Holy Monastery of<br>Agios Georgios, Korinos",
+    "sr": "Sveti manastir<br>Svetog Georgija, Korinos",
+    "bg": "Свети манастир<br>„Свети Георги“, Коринос",
+    "ro": "Sfânta Mănăstire<br>Sfântul Gheorghe, Korinos"
+  },
+  "community_span_3": {
+    "el": "Μοναχή Πολυχρονία",
+    "en": "Nun Polychronia",
+    "sr": "Monahinja Polihronija",
+    "bg": "Монахиня Полихрония",
+    "ro": "Maica Polychronia"
+  },
+  "nav-menu_span_3": {
+    "el": "Πολυμέσα",
+    "en": "Media",
+    "sr": "Galerija",
+    "bg": "Галерия",
+    "ro": "Galerie"
+  },
+  "visit_span_5": {
+    "el": "μ.",
+    "en": "m",
+    "sr": "m",
+    "bg": "м",
+    "ro": "m"
+  },
+  "donate_p_3": {
+    "el": "Στοιχεία τραπεζικού λογαριασμού θα προστεθούν εδώ όποτε μας τα παρέχει η μονή.",
+    "en": "Bank transfer details will be added here once provided by the monastery.",
+    "sr": "Podaci za bankovni prenos biće dodati ovde čim ih manastir dostavi.",
+    "bg": "Данните за банков превод ще бъдат добавени тук, след като бъдат предоставени от манастира.",
+    "ro": "Detaliile pentru transfer bancar vor fi adăugate aici de îndată ce vor fi furnizate de mănăstire."
+  },
+  "feasts_p_2": {
+    "el": "Η κύρια πανήγυρις της μονής, προς τιμήν του πολιούχου Αγίου.",
+    "en": "The monastery's main feast, in honour of its patron saint.",
+    "sr": "Glavna slava manastira, u čast njegovog sveca zaštitnika.",
+    "bg": "Главният празник на манастира, в чест на неговия покровител.",
+    "ro": "Sărbătoarea principală a mănăstirii, în cinstea sfântului ei ocrotitor."
+  },
+  "assistant-panel_span": {
+    "el": "Βοηθός Προσκυνητών",
+    "en": "Pilgrim Assistant",
+    "sr": "Pomoćnik za hodočasnike",
+    "bg": "Помощник за поклонници",
+    "ro": "Asistent pentru pelerini"
+  },
+  "top_span": {
+    "el": "Ιερά Μονή · Κορινός Πιερίας",
+    "en": "Holy Monastery · Korinos, Pieria",
+    "sr": "Sveti manastir · Korinos, Pierija",
+    "bg": "Свети манастир · Коринос, Пиерия",
+    "ro": "Sfânta Mănăstire · Korinos, Pieria"
+  },
+  "history_span": {
+    "el": "Ιστορία &amp; Καθολικό",
+    "en": "History &amp; Katholikon",
+    "sr": "Istorija i Katolikon",
+    "bg": "История и Католикон",
+    "ro": "Istorie și Katholikon"
+  },
+  "history_h2": {
+    "el": "Μια από τις αρχαιότερες μονές της Πιερίας",
+    "en": "One of the oldest monasteries in Pieria",
+    "sr": "Jedan od najstarijih manastira u Pieriji",
+    "bg": "Един от най-старите манастири в Пиерия",
+    "ro": "Una dintre cele mai vechi mănăstiri din Pieria"
+  },
+  "nav-menu_span_4": {
+    "el": "Επικοινωνία",
+    "en": "Contact",
+    "sr": "Kontakt",
+    "bg": "Контакти",
+    "ro": "Contact"
+  },
+  "visit_span_6": {
+    "el": "Περιοχή",
+    "en": "Region",
+    "sr": "Region",
+    "bg": "Регион",
+    "ro": "Regiune"
+  },
+  "feasts_p_3": {
+    "el": "Πανήγυρις στο ομώνυμο παρεκκλήσι, με αρτοκλασία και λιτανεία.",
+    "en": "Celebrated at the chapel dedicated to the saint, with the blessing of bread and a procession.",
+    "sr": "Proslavlja se u kapeli posvećenoj svecu, uz blagosiljanje hlebova i litiju.",
+    "bg": "Празнува се в параклиса, посветен на светеца, с освещаване на хляб и шествие.",
+    "ro": "Se sărbătorește la paraclisul dedicat sfântului, cu binecuvântarea pâinii și o procesiune."
+  },
+  "history_h3": {
+    "el": "Η εικόνα του Αγίου Γεωργίου",
+    "en": "The icon of Agios Georgios",
+    "sr": "Ikona Svetog Georgija",
+    "bg": "Иконата на Свети Георги",
+    "ro": "Icoana Sfântului Gheorghe"
+  },
+  "flame_span": {
+    "el": "Άναψε ένα κερί",
+    "en": "Light a candle",
+    "sr": "Upali sveću",
+    "bg": "Запалете свещ",
+    "ro": "Aprinde o lumânare"
+  },
+  "nav-menu_span_5": {
+    "el": "Δωρεές",
+    "en": "Donate",
+    "sr": "Donacije",
+    "bg": "Дарения",
+    "ro": "Donații"
+  },
+  "visit_span_7": {
+    "el": "Κορινός, Πιερία",
+    "en": "Korinos, Pieria",
+    "sr": "Korinos, Pierija",
+    "bg": "Коринос, Пиерия",
+    "ro": "Korinos, Pieria"
+  },
+  "feasts_p_4": {
+    "el": "Πανήγυρις στο παρεκκλήσι του Αγίου Νεκταρίου, ανακαινισμένο το 2018.",
+    "en": "Celebrated at the chapel of St. Nektarios, renovated in 2018.",
+    "sr": "Proslavlja se u kapeli Svetog Nektarija, obnovljenoj 2018. godine.",
+    "bg": "Празнува се в параклиса „Свети Нектарий“, реновиран през 2018 г.",
+    "ro": "Se sărbătorește la paraclisul Sfântul Nectarie, renovat în 2018."
+  },
+  "gallery_span": {
+    "el": "Πολυμέσα",
+    "en": "Media",
+    "sr": "Galerija",
+    "bg": "Галерия",
+    "ro": "Galerie"
+  },
+  "gallery_h2": {
+    "el": "Στιγμές από τη μονή",
+    "en": "Glimpses of the monastery",
+    "sr": "Trenuci iz manastira",
+    "bg": "Мигове от манастира",
+    "ro": "Imagini din mănăstire"
+  },
+  "feasts_p_5": {
+    "el": "Ανάψτε ένα ψηφιακό κερί ως ένδειξη προσευχής, όπου κι αν βρίσκεστε.",
+    "en": "Light a small digital candle as a gesture of prayer, wherever you are.",
+    "sr": "Upalite malu digitalnu sveću kao gest molitve, ma gde da se nalazite.",
+    "bg": "Запалете малка дигитална свещ като жест на молитва, където и да се намирате.",
+    "ro": "Aprindeți o mică lumânare digitală ca gest de rugăciune, oriunde v-ați afla."
+  },
+  "history_p_2": {
+    "el": "Στο κέντρο της αυλής δεσπόζει το καθολικό, αφιερωμένο στον Άγιο Μεγαλομάρτυρα Γεώργιο τον Τροπαιοφόρο. Πρόκειται για μονόκλιτη, μονόχωρη βασιλική χωρίς τρούλο, με εξωνάρθηκα για τα κεριά και το ιερό βήμα χωρισμένο από τον κυρίως ναό με ξύλινο τέμπλο.",
+    "en": "At the centre of the courtyard stands the katholikon, dedicated to the Great Martyr George the Trophy-bearer. It is a single-nave basilica without a dome, with an exonarthex for candles and a wooden templon screening the sanctuary from the main body of the church.",
+    "sr": "U središtu dvorišta nalazi se katolikon, posvećen Svetom velikomučeniku Georgiju Pobedonoscu. To je jednobrodna bazilika bez kupole, sa spoljašnjim priprata za sveće i drvenim templonom koji odvaja oltar od glavnog dela hrama.",
+    "bg": "В центъра на двора се издига католиконът, посветен на великомъченик Георги Победоносец. Това е еднокорабна базилика без купол, с външен притвор за свещи и дървен темплон, отделящ олтара от основната част на храма.",
+    "ro": "În centrul curții se află katholikonul, dedicat Marelui Mucenic Gheorghe Purtătorul de Biruință. Este o bazilică cu o singură navă, fără cupolă, cu un exonartex pentru lumânări și o tâmplă de lemn care separă altarul de restul bisericii."
+  },
+  "history_p_3": {
+    "el": "Η μονή διαδραμάτισε σημαντικό ρόλο στα δύσκολα χρόνια της ιστορίας της περιοχής: υπήρξε καταφύγιο για τους πρόσφυγες της Μικρασιατικής καταστροφής του 1922, προσφέροντάς τους φιλοξενία, οικονομική και πνευματική στήριξη, και κράτησε άσβεστη τη φλόγα της πίστης στα χρόνια της Τουρκοκρατίας και της Κατοχής.",
+    "en": "The monastery played a meaningful role through difficult periods of local history: it sheltered refugees from the 1922 Asia Minor catastrophe, offering them hospitality, material and spiritual support, and it kept faith alive through the years of Ottoman rule and the wartime occupation.",
+    "sr": "Manastir je odigrao značajnu ulogu tokom teških perioda lokalne istorije: pružio je utočište izbeglicama iz Male Azijske katastrofe 1922. godine, nudeći im gostoprimstvo, materijalnu i duhovnu podršku, i održao je veru živom tokom godina osmanske vladavine i ratne okupacije.",
+    "bg": "Манастирът изиграл важна роля през тежки периоди от местната история: приютил бежанци от Малоазийската катастрофа през 1922 г., предлагайки им гостоприемство, материална и духовна подкрепа, и запазил вярата жива през годините на османско владичество и военната окупация.",
+    "ro": "Mănăstirea a jucat un rol important în perioadele dificile ale istoriei locale: a adăpostit refugiați din catastrofa din Asia Mică din 1922, oferindu-le ospitalitate, sprijin material și spiritual, și a păstrat credința vie în anii stăpânirii otomane și ai ocupației din timpul războiului."
+  },
+  "feasts_span": {
+    "el": "Πανηγύρια",
+    "en": "Feast Days",
+    "sr": "Praznici",
+    "bg": "Празници",
+    "ro": "Sărbători"
+  },
+  "feasts_h2": {
+    "el": "Τρεις γιορτές τον χρόνο",
+    "en": "Three feasts a year",
+    "sr": "Tri praznika godišnje",
+    "bg": "Три празника годишно",
+    "ro": "Trei sărbători pe an"
+  },
+  "donate_h2": {
+    "el": "Στηρίξτε τη μονή",
+    "en": "Support the monastery",
+    "sr": "Podržite manastir",
+    "bg": "Подкрепете манастира",
+    "ro": "Susțineți mănăstirea"
+  },
+  "community_p": {
+    "el": "Η μονή φιλοξενεί σήμερα μια μικρή αδελφότητα μοναζουσών, αφιερωμένων στην προσευχή, την ακολουθία των ωρών και τη φιλοξενία των προσκυνητών.",
+    "en": "The monastery is home today to a small sisterhood, devoted to prayer, the daily cycle of services, and the welcome of pilgrims.",
+    "sr": "Manastir danas okuplja malo sestrinstvo, posvećeno molitvi, svakodnevnom krugu bogosluženja i dočeku hodočasnika.",
+    "bg": "Днес манастирът е дом на малко сестринство, посветено на молитвата, ежедневния цикъл от богослужения и посрещането на поклонници.",
+    "ro": "Astăzi mănăstirea găzduiește o mică obște de maici, dedicate rugăciunii, ciclului zilnic de slujbe și primirii pelerinilor."
+  },
+  "history_p_4": {
+    "el": "Το παρεκκλήσι του Αγίου Νεκταρίου ανεγέρθηκε το 1965 επί ηγουμενίας μοναχής Κυριακής και ανακαινίσθηκε εκ βάθρων το 2018, επί ηγουμενίας Γεροντίσσης Ειρήνης, με τη φροντίδα της νυν Καθηγουμένης, μοναχής Αγαθονίκης.",
+    "en": "The chapel of Agios Nektarios was built in 1965 under Abbess Kyriaki and was fully renovated in 2018 under Abbess Eirini, with the care of the present Abbess, Nun Agathoniki.",
+    "sr": "Kapela Svetog Nektarija izgrađena je 1965. godine za vreme igumanije Kirjaki i u potpunosti je obnovljena 2018. godine za vreme igumanije Irine, uz brigu sadašnje igumanije, monahinje Agatonike.",
+    "bg": "Параклисът „Свети Нектарий“ е построен през 1965 г. по времето на игуменка Кириаки и е основно реновиран през 2018 г. по времето на игуменка Ирини, с грижите на настоящата игуменка, монахиня Агатоника.",
+    "ro": "Paraclisul Sfântul Nectarie a fost construit în 1965 sub stăreția Maicii Kyriaki și a fost renovat complet în 2018 sub stăreția Maicii Eirini, cu grija actualei starețe, Maica Agathoniki."
+  },
+  "page_span": {
+    "el": "Άγιος Γεώργιος Κορινού",
+    "en": "Agios Georgios, Korinos",
+    "sr": "Agios Georgios, Korinos",
+    "bg": "Агиос Георгиос, Коринос",
+    "ro": "Agios Georgios, Korinos"
+  },
+  "donate_span": {
+    "el": "Δωρεές",
+    "en": "Donations",
+    "sr": "Donacije",
+    "bg": "Дарения",
+    "ro": "Donații"
+  },
+  "feasts_h3": {
+    "el": "Άγιος Γεώργιος ο Τροπαιοφόρος",
+    "en": "St. George the Trophy-bearer",
+    "sr": "Sveti Georgije Pobedonosac",
+    "bg": "Свети Георги Победоносец",
+    "ro": "Sfântul Gheorghe Purtătorul de Biruință"
+  },
+  "history_p_5": {
+    "el": "Η παλαιά εφέστιος εικόνα του Αγίου, στολισμένη με τάματα των πιστών, θεωρείται θαυματουργή και αποτελεί το κέντρο προσκυνήματος της μονής.",
+    "en": "The old icon of the saint, adorned with votive offerings from the faithful, is held to be wonder-working and is the heart of pilgrimage to the monastery.",
+    "sr": "Stara ikona sveca, ukrašena zavetnim prilozima vernika, smatra se čudotvornom i predstavlja srce hodočašća u manastir.",
+    "bg": "Старата икона на светеца, украсена с приношения от вярващите, се смята за чудотворна и е сърцето на поклонничеството към манастира.",
+    "ro": "Vechea icoană a sfântului, împodobită cu daruri de mulțumire ale credincioșilor, este considerată făcătoare de minuni și reprezintă inima pelerinajului la mănăstire."
+  },
+  "settings-trigger_span": {
+    "el": "Ρυθμίσεις",
+    "en": "Settings",
+    "sr": "Podešavanja",
+    "bg": "Настройки",
+    "ro": "Setări"
+  },
+  "contact_span_2": {
+    "el": "Διεύθυνση",
+    "en": "Address",
+    "sr": "Adresa",
+    "bg": "Адрес",
+    "ro": "Adresă"
+  },
   "panorama_caption": {
     "el": "Κινήστε το ποντίκι πάνω στην εικόνα για μια τρισδιάστατη θέα της αυλής",
     "en": "Move your mouse over the image for a 3D view of the courtyard",
     "sr": "Pomerite miša preko slike za 3D pogled na dvorište",
     "bg": "Преместете мишката върху снимката за 3D изглед на двора",
     "ro": "Mișcați mouse-ul peste imagine pentru o vedere 3D a curții"
+  },
+  "visit_p": {
+    "el": "Η μονή δεν δημοσιεύει σταθερό ωράριο επίσκεψης online — καλέστε πριν την επίσκεψή σας για να επιβεβαιώσετε τις ώρες, ιδίως τις ημέρες πανηγύρεων.",
+    "en": "The monastery doesn't publish fixed visiting hours online — please call ahead to confirm timing, especially around feast days.",
+    "sr": "Manastir ne objavljuje fiksno radno vreme na internetu — molimo pozovite unapred da potvrdite termin, posebno oko praznika.",
+    "bg": "Манастирът не публикува фиксирано работно време онлайн — моля, обадете се предварително, за да потвърдите часовете, особено около празници.",
+    "ro": "Mănăstirea nu publică un program fix de vizitare online — vă rugăm sunați în avans pentru a confirma orarul, mai ales în preajma sărbătorilor."
+  },
+  "contact_span_3": {
+    "el": "601 50 Κορινός, Πιερία, Ελλάδα",
+    "en": "601 50 Korinos, Pieria, Greece",
+    "sr": "601 50 Korinos, Pierija, Grčka",
+    "bg": "601 50 Коринос, Пиерия, Гърция",
+    "ro": "601 50 Korinos, Pieria, Grecia"
+  },
+  "visit_h2": {
+    "el": "Πληροφορίες επίσκεψης",
+    "en": "Planning your visit",
+    "sr": "Planiranje posete",
+    "bg": "Планиране на посещението",
+    "ro": "Planificarea vizitei"
+  },
+  "contact_span_4": {
+    "el": "Τηλέφωνο",
+    "en": "Phone",
+    "sr": "Telefon",
+    "bg": "Телефон",
+    "ro": "Telefon"
+  },
+  "visit_span": {
+    "el": "Επίσκεψη",
+    "en": "Visiting",
+    "sr": "Poseta",
+    "bg": "Посещение",
+    "ro": "Vizitare"
+  },
+  "visit_h3": {
+    "el": "Πώς να έρθετε",
+    "en": "Getting here",
+    "sr": "Kako doći",
+    "bg": "Как да стигнете",
+    "ro": "Cum ajungeți"
+  },
+  "contact_span_5": {
+    "el": "Εκκλησιαστική υπαγωγή",
+    "en": "Ecclesiastical jurisdiction",
+    "sr": "Crkvena nadležnost",
+    "bg": "Църковна юрисдикция",
+    "ro": "Jurisdicție bisericească"
   }
 }
