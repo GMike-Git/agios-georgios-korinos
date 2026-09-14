@@ -1592,3 +1592,190 @@ collections:
       - label: Română
         name: ro
         widget: text
+- name: site_images
+  label: Φωτογραφίες Ιστοσελίδας
+  files:
+  - name: images
+    label: Εικόνες σελίδας
+    file: images.json
+    fields:
+    - label: Γενικά — Λογότυπο
+      name: brandmark
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Αρχική — Κυρίως φωτογραφία
+      name: hero_bg
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Ιστορικό — Η θαυματουργή εικόνα
+      name: history_icon
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Ιστορικό — Φωτογραφία 1 (αυλή)
+      name: history_photo_1
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Ιστορικό — Φωτογραφία 2 (καθολικό)
+      name: history_photo_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Ιστορικό — Φωτογραφία 3 (κίονες)
+      name: history_photo_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Πανοραμική Αυλή
+      name: panorama
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Πανηγύρια — Άγιος Γεώργιος
+      name: feast_1
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Πανηγύρια — Άγιος Φανούριος
+      name: feast_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Πανηγύρια — Άγιος Νεκτάριος
+      name: feast_3
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Η Αδελφότητα — Καθηγουμένη
+      name: community_1
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Η Αδελφότητα — Μοναχή
+      name: community_2
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Επίσκεψη — Στοά φιλοξενίας
+      name: visit_photo
+      widget: object
+      collapsed: true
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+    - label: Πολυμέσα — Λίστα φωτογραφιών
+      name: gallery
+      widget: list
+      label_singular: Φωτογραφία
+      summary: '{{fields.alt}}'
+      fields:
+      - label: Φωτογραφία
+        name: src
+        widget: image
+      - label: Περιγραφή (alt text)
+        name: alt
+        widget: string
+        required: false
+      - label: Μέγεθος στο πλέγμα
+        name: size
+        widget: select
+        options:
+        - label: Κανονικό
+          value: normal
+        - label: Ψηλό
+          value: tall
+        - label: Πλατύ
+          value: wide
+        default: normal

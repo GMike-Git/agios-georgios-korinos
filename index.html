@@ -548,7 +548,7 @@
 <div class="topbar">
   <div class="topbar-inner">
     <a href="#top" class="brandmark" style="text-decoration:none;">
-      <img src="images/brandmark-icon.jpg" alt="" class="brandmark-img">
+      <img data-img-key="brandmark" src="images/brandmark-icon.jpg" alt="" class="brandmark-img">
       <span data-key="page_span">Άγιος Γεώργιος Κορινού</span>
     </a>
 
@@ -560,8 +560,8 @@
       <a href="#top" class="nav-link"><span data-key="nav-menu_span">Αρχική</span></a>
       <a href="#history" class="nav-link"><span data-key="nav-menu_span_2">Ιστορικό</span></a>
       <a href="#gallery" class="nav-link"><span data-key="nav-menu_span_3">Πολυμέσα</span></a>
-      <a href="#contact" class="nav-link"><span data-key="nav-menu_span_4">Επικοινωνία</span></a>
       <a href="#donate" class="nav-link"><span data-key="nav-menu_span_5">Δωρεές</span></a>
+      <a href="#contact" class="nav-link"><span data-key="nav-menu_span_4">Επικοινωνία</span></a>
 
       <div class="settings-wrap">
         <button class="nav-link" id="settings-trigger">
@@ -600,7 +600,7 @@
 </div>
 
 <section class="hero" id="top">
-  <img class="hero-img" src="images/hero.jpg" alt="Holy Monastery of Agios Georgios, Korinos">
+  <img data-img-key="hero_bg" class="hero-img" src="images/hero.jpg" alt="Holy Monastery of Agios Georgios, Korinos">
   <div class="hero-content">
     <div class="hero-eyebrow-wrap">
       <span class="eyebrow" data-key="top_span">Ιερά Μονή · Κορινός Πιερίας</span>
@@ -630,7 +630,7 @@
         </div>
 
         <div class="icon-callout">
-          <img src="images/icon-agios-georgios.jpg" alt="Η θαυματουργή εικόνα του Αγίου Γεωργίου">
+          <img data-img-key="history_icon" src="images/icon-agios-georgios.jpg" alt="Η θαυματουργή εικόνα του Αγίου Γεωργίου">
           <div>
             <span class="eyebrow" data-key="history_span_2">Η εφέστιος εικόνα</span>
             <h3 data-key="history_h3">Η εικόνα του Αγίου Γεωργίου</h3>
@@ -641,15 +641,15 @@
 
       <div class="history-media">
         <figure>
-          <img src="images/courtyard.jpg" alt="Η αυλή και ο κωδωνοστάσιο της μονής">
+          <img data-img-key="history_photo_1" src="images/courtyard.jpg" alt="Η αυλή και ο κωδωνοστάσιο της μονής">
           <figcaption data-key="history_figcaption">Η αυλή και το κωδωνοστάσιο</figcaption>
         </figure>
         <figure>
-          <img src="images/katholikon-interior.jpg" alt="Το εσωτερικό παρεκκλήσι της μονής">
+          <img data-img-key="history_photo_2" src="images/katholikon-interior.jpg" alt="Το εσωτερικό παρεκκλήσι της μονής">
           <figcaption data-key="history_figcaption_2">Στο εσωτερικό του καθολικού</figcaption>
         </figure>
         <figure>
-          <img src="images/columns.jpg" alt="Μαρμάρινοι κίονες στον κήπο της μονής">
+          <img data-img-key="history_photo_3" src="images/columns.jpg" alt="Μαρμάρινοι κίονες στον κήπο της μονής">
           <figcaption data-key="history_figcaption_3">Παλαιοί μαρμάρινοι κίονες στον κήπο</figcaption>
         </figure>
       </div>
@@ -660,7 +660,7 @@
 <section class="panorama-section">
   <div class="wrap">
     <div class="panorama-stage" id="panorama-stage">
-      <img src="images/courtyard-panorama.jpg" alt="Πανοραμική άποψη της αυλής της μονής">
+      <img data-img-key="panorama" src="images/courtyard-panorama.jpg" alt="Πανοραμική άποψη της αυλής της μονής">
     </div>
     <p class="panorama-caption" data-key="panorama_caption">Κινήστε το ποντίκι πάνω στην εικόνα για μια τρισδιάστατη θέα της αυλής</p>
   </div>
@@ -672,7 +672,7 @@
       <span class="eyebrow" data-key="gallery_span">Πολυμέσα</span>
       <h2 data-key="gallery_h2">Στιγμές από τη μονή</h2>
     </div>
-    <div class="gallery-grid">
+    <div class="gallery-grid" id="gallery-grid">
       <div class="gallery-item tall" data-full="images/hero.jpg"><img src="images/hero.jpg" alt="Ο ναός της μονής υπό τον ήλιο" loading="lazy"></div>
       <div class="gallery-item" data-full="images/courtyard.jpg"><img src="images/courtyard.jpg" alt="Η αυλή και το κωδωνοστάσιο" loading="lazy"></div>
       <div class="gallery-item" data-full="images/icon-agios-georgios.jpg"><img src="images/icon-agios-georgios.jpg" alt="Η εικόνα του Αγίου Γεωργίου" loading="lazy"></div>
@@ -704,7 +704,7 @@
     </div>
     <div class="feast-list">
       <div class="feast-card">
-        <div class="feast-img"><img src="images/feast-procession.jpg" alt="Λιτάνευση της εικόνας του Αγίου Γεωργίου"></div>
+        <div class="feast-img"><img data-img-key="feast_1" src="images/feast-procession.jpg" alt="Λιτάνευση της εικόνας του Αγίου Γεωργίου"></div>
         <div class="feast-body">
           <span class="feast-date" data-key="feasts_span_2">23 Απριλίου</span>
           <h3 data-key="feasts_h3">Άγιος Γεώργιος ο Τροπαιοφόρος</h3>
@@ -712,7 +712,7 @@
         </div>
       </div>
       <div class="feast-card">
-        <div class="feast-img"><img src="images/feast-artoklasia.jpg" alt="Αρτοκλασία στη γιορτή του Αγίου Φανουρίου"></div>
+        <div class="feast-img"><img data-img-key="feast_2" src="images/feast-artoklasia.jpg" alt="Αρτοκλασία στη γιορτή του Αγίου Φανουρίου"></div>
         <div class="feast-body">
           <span class="feast-date" data-key="feasts_span_3">27 Αυγούστου</span>
           <h3 data-key="feasts_h3_2">Άγιος Φανούριος</h3>
@@ -720,7 +720,7 @@
         </div>
       </div>
       <div class="feast-card">
-        <div class="feast-img"><img src="images/feast-service.jpg" alt="Εσπερινός στη γιορτή του Αγίου Νεκταρίου"></div>
+        <div class="feast-img"><img data-img-key="feast_3" src="images/feast-service.jpg" alt="Εσπερινός στη γιορτή του Αγίου Νεκταρίου"></div>
         <div class="feast-body">
           <span class="feast-date" data-key="feasts_span_4">9 Νοεμβρίου</span>
           <h3 data-key="feasts_h3_3">Άγιος Νεκτάριος</h3>
@@ -749,12 +749,12 @@
     </div>
     <div class="community-grid">
       <div class="community-card">
-        <div class="frame"><img src="images/nun-agathoniki.jpg" alt="Καθηγουμένη Αγαθονίκη"></div>
+        <div class="frame"><img data-img-key="community_1" src="images/nun-agathoniki.jpg" alt="Καθηγουμένη Αγαθονίκη"></div>
         <span class="name" data-key="community_span_2">Καθηγουμένη Αγαθονίκη</span>
         <p data-key="community_p_2">Νυν ηγουμένη της μονής.</p>
       </div>
       <div class="community-card">
-        <div class="frame"><img src="images/nun-polychronia.jpg" alt="Μοναχή Πολυχρονία"></div>
+        <div class="frame"><img data-img-key="community_2" src="images/nun-polychronia.jpg" alt="Μοναχή Πολυχρονία"></div>
         <span class="name" data-key="community_span_3">Μοναχή Πολυχρονία</span>
         <p data-key="community_p_3">Μέλος της αδελφότητας.</p>
       </div>
@@ -769,7 +769,7 @@
       <h2 data-key="visit_h2">Πληροφορίες επίσκεψης</h2>
     </div>
     <figure style="margin-bottom:48px; border-radius:3px; overflow:hidden; box-shadow:var(--shadow);">
-      <img src="images/arcade.jpg" alt="Η στοά φιλοξενίας της μονής" style="width:100%; max-height:420px; object-fit:cover;">
+      <img data-img-key="visit_photo" src="images/arcade.jpg" alt="Η στοά φιλοξενίας της μονής" style="width:100%; max-height:420px; object-fit:cover;">
     </figure>
     <div class="visit-grid">
       <div class="visit-col">
@@ -857,7 +857,7 @@
 </section>
 
 <footer>
-  <p data-key="gmap-iframe_p">Ιερά Μονή Αγίου Γεωργίου Κορινού · Πιερία</p>
+  <p>&#169; <span data-key="gmap-iframe_p">Ιερά Μονή Αγίου Γεωργίου Κορινού · Πιερία</span></p>
 </footer>
 
 <button class="assistant-fab" id="assistant-fab" aria-label="Βοηθός">
@@ -867,7 +867,7 @@
 
 <div class="assistant-panel" id="assistant-panel">
   <div class="assistant-head">
-    <img src="images/brandmark-icon.jpg" alt="">
+    <img data-img-key="brandmark" src="images/brandmark-icon.jpg" alt="">
     <div class="assistant-head-text">
       <div class="title-wrap">
         <span data-key="assistant-panel_span">Βοηθός Προσκυνητών</span>
@@ -1190,13 +1190,18 @@
   // Lightbox
   const lightbox = document.getElementById('lightbox');
   const lightboxImg = document.getElementById('lightbox-img');
-  document.querySelectorAll('.gallery-item').forEach(item=>{
-    item.addEventListener('click', ()=>{
-      lightboxImg.src = item.dataset.full;
-      lightboxImg.alt = item.querySelector('img').alt;
-      lightbox.classList.add('open');
+
+  function bindGalleryLightbox(){
+    document.querySelectorAll('.gallery-item').forEach(item=>{
+      item.addEventListener('click', ()=>{
+        lightboxImg.src = item.dataset.full;
+        lightboxImg.alt = item.querySelector('img').alt;
+        lightbox.classList.add('open');
+      });
     });
-  });
+  }
+  bindGalleryLightbox();
+
   document.getElementById('lightbox-close').addEventListener('click', ()=>{
     lightbox.classList.remove('open');
   });
@@ -1206,6 +1211,40 @@
   document.addEventListener('keydown', (e)=>{
     if(e.key === 'Escape') lightbox.classList.remove('open');
   });
+
+  // ---------- Site images (loaded from images.json, edited via CMS) ----------
+  function renderImages(data){
+    if(!data) return;
+
+    // Fixed, single-slot photos
+    if(data.fixed){
+      document.querySelectorAll('[data-img-key]').forEach(img=>{
+        const entry = data.fixed[img.getAttribute('data-img-key')];
+        if(entry && entry.src){
+          img.src = entry.src;
+          if(typeof entry.alt === 'string') img.alt = entry.alt;
+        }
+      });
+    }
+
+    // Gallery list — rebuilt entirely from the CMS list
+    const grid = document.getElementById('gallery-grid');
+    if(grid && Array.isArray(data.gallery)){
+      grid.innerHTML = data.gallery.map(item=>{
+        const sizeClass = item.size && item.size !== 'normal' ? ' ' + item.size : '';
+        const alt = (item.alt || '').replace(/"/g,'&quot;');
+        return `<div class="gallery-item${sizeClass}" data-full="${item.src}"><img src="${item.src}" alt="${alt}" loading="lazy"></div>`;
+      }).join('');
+      bindGalleryLightbox();
+    }
+  }
+
+  fetch('images.json')
+    .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    .then(renderImages)
+    .catch(() => {
+      console.warn('images.json could not be loaded — showing built-in photos only.');
+    });
 </script>
 
 </body>
