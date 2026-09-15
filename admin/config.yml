@@ -1772,7 +1772,7 @@ collections:
       name: gallery
       widget: list
       label_singular: Φωτογραφία
-      summary: '{{fields.alt}}'
+      summary: '{{fields.src}}'
       fields:
       - label: Φωτογραφία
         name: src
@@ -1782,15 +1782,3 @@ collections:
         name: alt
         widget: string
         required: false
-      - label: Μέγεθος στο πλέγμα
-        name: size
-        widget: select
-        required: false
-        options:
-        - label: Κανονικό
-          value: normal
-        - label: Ψηλό
-          value: tall
-        - label: Πλατύ
-          value: wide
-        default: normal
