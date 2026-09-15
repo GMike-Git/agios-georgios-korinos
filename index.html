@@ -1239,12 +1239,15 @@
     }
   }
 
-  fetch('images.json')
-    .then(r => r.ok ? r.json() : Promise.reject(r.status))
-    .then(renderImages)
-    .catch(() => {
-      console.warn('images.json could not be loaded — showing built-in photos only.');
+  Promise.all([
+    fetch('images-fixed.json').then(r => r.ok ? r.json() : Promise.reject(r.status)).catch(() => null),
+    fetch('images-gallery.json').then(r => r.ok ? r.json() : Promise.reject(r.status)).catch(() => null),
+  ]).then(([fixedData, galleryData]) => {
+    renderImages({
+      fixed: fixedData ? fixedData.fixed : null,
+      gallery: galleryData ? galleryData.gallery : null,
     });
+  });
 </script>
 
 </body>

@@ -1595,9 +1595,9 @@ collections:
 - name: site_images
   label: Φωτογραφίες Ιστοσελίδας
   files:
-  - name: images
-    label: Εικόνες σελίδας
-    file: images.json
+  - name: images_fixed
+    label: Σταθερές φωτογραφίες
+    file: images-fixed.json
     fields:
     - label: Γενικά — Λογότυπο
       name: brandmark
@@ -1608,7 +1608,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1622,7 +1621,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1636,7 +1634,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1650,7 +1647,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1664,7 +1660,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1678,7 +1673,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1692,7 +1686,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1706,7 +1699,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1720,7 +1712,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1734,7 +1725,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1748,7 +1738,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1762,7 +1751,6 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
@@ -1776,11 +1764,14 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/hero.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
         required: false
+  - name: images_gallery
+    label: Πολυμέσα (Γκαλερί)
+    file: images-gallery.json
+    fields:
     - label: Πολυμέσα — Λίστα φωτογραφιών
       name: gallery
       widget: list
@@ -1791,8 +1782,19 @@ collections:
         name: src
         widget: string
         hint: π.χ. images/photo.jpg (σχετική διαδρομή προς το αρχείο στον φάκελο images/)
-        required: false
       - label: Περιγραφή (alt text)
         name: alt
         widget: string
         required: false
+      - label: Μέγεθος στο πλέγμα
+        name: size
+        widget: select
+        required: false
+        options:
+        - label: Κανονικό
+          value: normal
+        - label: Ψηλό
+          value: tall
+        - label: Πλατύ
+          value: wide
+        default: normal
