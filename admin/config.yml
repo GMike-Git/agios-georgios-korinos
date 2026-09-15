@@ -1771,6 +1771,7 @@ collections:
       - label: Μέγεθος στο πλέγμα
         name: size
         widget: select
+        required: false
         options:
         - label: Κανονικό
           value: normal
