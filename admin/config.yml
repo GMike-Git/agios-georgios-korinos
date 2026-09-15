@@ -1606,10 +1606,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Αρχική — Κυρίως φωτογραφία
       name: hero_bg
       widget: object
@@ -1617,10 +1617,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Ιστορικό — Η θαυματουργή εικόνα
       name: history_icon
       widget: object
@@ -1628,10 +1628,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Ιστορικό — Φωτογραφία 1 (αυλή)
       name: history_photo_1
       widget: object
@@ -1639,10 +1639,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Ιστορικό — Φωτογραφία 2 (καθολικό)
       name: history_photo_2
       widget: object
@@ -1650,10 +1650,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Ιστορικό — Φωτογραφία 3 (κίονες)
       name: history_photo_3
       widget: object
@@ -1661,10 +1661,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Πανοραμική Αυλή
       name: panorama
       widget: object
@@ -1672,10 +1672,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Πανηγύρια — Άγιος Γεώργιος
       name: feast_1
       widget: object
@@ -1683,10 +1683,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Πανηγύρια — Άγιος Φανούριος
       name: feast_2
       widget: object
@@ -1694,10 +1694,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Πανηγύρια — Άγιος Νεκτάριος
       name: feast_3
       widget: object
@@ -1705,10 +1705,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Η Αδελφότητα — Καθηγουμένη
       name: community_1
       widget: object
@@ -1716,10 +1716,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Η Αδελφότητα — Μοναχή
       name: community_2
       widget: object
@@ -1727,10 +1727,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
     - label: Επίσκεψη — Στοά φιλοξενίας
       name: visit_photo
       widget: object
@@ -1738,10 +1738,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
   - name: images_gallery
     label: Πολυμέσα (Γκαλερί)
     file: images-gallery.json
@@ -1754,10 +1754,10 @@ collections:
       fields:
       - label: Φωτογραφία
         name: src
-        widget: string
+        widget: text
       - label: Περιγραφή (alt text)
         name: alt
-        widget: string
+        widget: text
       - label: Μέγεθος στο πλέγμα
         name: size
         widget: select
