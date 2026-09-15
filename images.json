@@ -1,16 +1,32 @@
 {
   "fixed": {
-    "brandmark": {
-      "src": "images/brandmark-icon.jpg",
-      "alt": ""
+    "history_icon": {
+      "src": "images/icon-agios-georgios.jpg",
+      "alt": "Η θαυματουργή εικόνα του Αγίου Γεωργίου"
     },
     "hero_bg": {
       "src": "images/hero.jpg",
       "alt": "Holy Monastery of Agios Georgios, Korinos"
     },
-    "history_icon": {
-      "src": "images/icon-agios-georgios.jpg",
-      "alt": "Η θαυματουργή εικόνα του Αγίου Γεωργίου"
+    "brandmark": {
+      "src": "images/brandmark-icon.jpg",
+      "alt": ""
+    },
+    "feast_1": {
+      "src": "images/feast-procession.jpg",
+      "alt": "Λιτάνευση της εικόνας του Αγίου Γεωργίου"
+    },
+    "panorama": {
+      "src": "images/courtyard-panorama.jpg",
+      "alt": "Πανοραμική άποψη της αυλής της μονής"
+    },
+    "feast_2": {
+      "src": "images/feast-artoklasia.jpg",
+      "alt": "Αρτοκλασία στη γιορτή του Αγίου Φανουρίου"
+    },
+    "feast_3": {
+      "src": "images/feast-service.jpg",
+      "alt": "Εσπερινός στη γιορτή του Αγίου Νεκταρίου"
     },
     "history_photo_1": {
       "src": "images/courtyard.jpg",
@@ -23,22 +39,6 @@
     "history_photo_3": {
       "src": "images/columns.jpg",
       "alt": "Μαρμάρινοι κίονες στον κήπο της μονής"
-    },
-    "panorama": {
-      "src": "images/courtyard-panorama.jpg",
-      "alt": "Πανοραμική άποψη της αυλής της μονής"
-    },
-    "feast_1": {
-      "src": "images/feast-procession.jpg",
-      "alt": "Λιτάνευση της εικόνας του Αγίου Γεωργίου"
-    },
-    "feast_2": {
-      "src": "images/feast-artoklasia.jpg",
-      "alt": "Αρτοκλασία στη γιορτή του Αγίου Φανουρίου"
-    },
-    "feast_3": {
-      "src": "images/feast-service.jpg",
-      "alt": "Εσπερινός στη γιορτή του Αγίου Νεκταρίου"
     },
     "community_1": {
       "src": "images/nun-agathoniki.jpg",
@@ -109,5 +109,8 @@
       "alt": "Λεπτομέρεια από τον κήπο",
       "size": "normal"
     }
-  ]
+  ],
+  "visit_photo": {
+    "alt": "x"
+  }
 }
