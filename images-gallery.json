@@ -54,6 +54,11 @@
       "src": "images/gallery-garden-detail.jpg",
       "alt": "Λεπτομέρεια από τον κήπο",
       "size": "normal"
+    },
+    {
+      "src": "images/esp_ag_fanouriou.jpg",
+      "alt": "Πανηγυρικός εσπερινός",
+      "size": "tall"
     }
   ]
 }
