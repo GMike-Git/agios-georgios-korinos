@@ -1271,6 +1271,7 @@
           statusEl.className = 'form-status success';
           statusEl.textContent = STATUS_MESSAGES.success[lang];
           contactForm.reset();
+          setTimeout(() => { statusEl.textContent = ''; statusEl.className = 'form-status'; }, 6000);
         })
         .catch(() => {
           statusEl.className = 'form-status error';
