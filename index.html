@@ -425,6 +425,38 @@
   }
   .map-frame iframe{ width:100%; height:100%; border:0; filter:saturate(.85); }
 
+  .contact-form-card{
+    margin-top:56px; padding:36px; background:var(--card-bg); border:1px solid var(--divider);
+    border-radius:4px; max-width:640px;
+  }
+  .contact-form-card h3{ font-size:1.3rem; margin-bottom:22px; }
+  .contact-form-card .hp-field{ position:absolute; left:-9999px; top:-9999px; }
+  .form-row{ margin-bottom:18px; }
+  .form-row label{
+    display:block; font-family:'Inter',sans-serif; font-size:.78rem; letter-spacing:.03em;
+    color:var(--text-soft); margin-bottom:6px;
+  }
+  .form-row input, .form-row textarea{
+    width:100%; padding:11px 13px; border:1px solid var(--divider); border-radius:6px;
+    background:var(--bg); color:var(--text); font-family:'Source Serif 4', serif; font-size:.95rem;
+    resize:vertical;
+  }
+  .form-row input:focus, .form-row textarea:focus{
+    outline:none; border-color:var(--accent);
+  }
+  .form-submit{
+    background:var(--accent); color:var(--paper); border:none; border-radius:999px;
+    padding:12px 30px; font-family:'Inter',sans-serif; font-size:.85rem; letter-spacing:.03em;
+    cursor:pointer; transition:opacity .2s;
+  }
+  .form-submit:hover{ opacity:.88; }
+  .form-submit:disabled{ opacity:.6; cursor:default; }
+  .form-status{
+    margin-top:14px; font-size:.88rem; min-height:1.2em;
+  }
+  .form-status.success{ color:var(--olive); }
+  .form-status.error{ color:var(--terracotta); }
+
   footer{ padding:40px 0; text-align:center; }
 
   /* ---------- Assistant widget ---------- */
@@ -852,6 +884,33 @@
         <iframe id="gmap-iframe" loading="lazy" src="https://www.google.com/maps?q=%CE%99%CE%B5%CF%81%CE%AC%20%CE%9C%CE%BF%CE%BD%CE%AE%20%CE%91%CE%B3%CE%AF%CE%BF%CF%85%20%CE%93%CE%B5%CF%89%CF%81%CE%B3%CE%AF%CE%BF%CF%85%20%CE%9A%CE%BF%CF%81%CE%B9%CE%BD%CE%BF%CF%8D&output=embed&hl=el" allowfullscreen></iframe>
       </div>
     </div>
+
+    <div class="contact-form-card">
+      <h3 data-key="contact_form_title">Στείλτε μας ένα μήνυμα</h3>
+      <form id="contact-form" name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hp-field"><label>Μην το συμπληρώνετε: <input name="bot-field"></label></p>
+
+        <div class="form-row">
+          <label for="cf-name" data-key="contact_form_name_label">Όνομα</label>
+          <input type="text" id="cf-name" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-email" data-key="contact_form_email_label">Email</label>
+          <input type="email" id="cf-email" name="email" required>
+        </div>
+        <div class="form-row">
+          <label for="cf-message" data-key="contact_form_message_label">Μήνυμα</label>
+          <textarea id="cf-message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="form-submit">
+          <span data-key="contact_form_submit">Αποστολή</span>
+        </button>
+
+        <p class="form-status" id="contact-form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
   </div>
 </section>
 
@@ -1172,6 +1231,55 @@
         ticking = false;
       });
     }, {passive:true});
+  }
+
+  // Contact form (Netlify Forms, submitted via fetch to avoid a page reload)
+  const contactForm = document.getElementById('contact-form');
+  if(contactForm){
+    const statusEl = document.getElementById('contact-form-status');
+    const submitBtn = contactForm.querySelector('.form-submit');
+    const submitLabel = submitBtn.querySelector('[data-key]');
+    const originalSubmitText = submitLabel.textContent;
+
+    const STATUS_MESSAGES = {
+      sending: {el:'Αποστολή...', en:'Sending...', sr:'Slanje...', bg:'Изпраща се...', ro:'Se trimite...'},
+      success: {el:'Ευχαριστούμε! Το μήνυμά σας εστάλη.', en:'Thank you! Your message has been sent.', sr:'Hvala! Vaša poruka je poslata.', bg:'Благодарим ви! Съобщението е изпратено.', ro:'Vă mulțumim! Mesajul a fost trimis.'},
+      error: {el:'Κάτι πήγε στραβά. Δοκιμάστε ξανά ή καλέστε μας.', en:'Something went wrong. Please try again or call us.', sr:'Nešto je pošlo po zlu. Pokušajte ponovo ili nas pozovite.', bg:'Нещо се обърка. Опитайте отново или ни се обадете.', ro:'Ceva nu a mers bine. Încercați din nou sau sunați-ne.'},
+    };
+
+    function currentSiteLang(){
+      const l = document.documentElement.getAttribute('data-lang');
+      return ['el','en','sr','bg','ro'].includes(l) ? l : 'el';
+    }
+
+    contactForm.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const lang = currentSiteLang();
+      submitBtn.disabled = true;
+      statusEl.className = 'form-status';
+      statusEl.textContent = STATUS_MESSAGES.sending[lang];
+
+      const formData = new FormData(contactForm);
+      const encoded = new URLSearchParams(formData).toString();
+
+      fetch('/', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+        body: encoded,
+      })
+        .then(() => {
+          statusEl.className = 'form-status success';
+          statusEl.textContent = STATUS_MESSAGES.success[lang];
+          contactForm.reset();
+        })
+        .catch(() => {
+          statusEl.className = 'form-status error';
+          statusEl.textContent = STATUS_MESSAGES.error[lang];
+        })
+        .finally(() => {
+          submitBtn.disabled = false;
+        });
+    });
   }
 
   // Lightbox

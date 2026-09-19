@@ -1593,6 +1593,106 @@ collections:
       - label: Română
         name: ro
         widget: text
+    - label: Επικοινωνία — «Στείλτε μας ένα μήνυμα…»
+      name: contact_form_title
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — Φόρμα, ετικέτα «Όνομα»
+      name: contact_form_name_label
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — Φόρμα, ετικέτα «Email»
+      name: contact_form_email_label
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — Φόρμα, ετικέτα «Μήνυμα»
+      name: contact_form_message_label
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
+    - label: Επικοινωνία — Φόρμα, κουμπί «Αποστολή»
+      name: contact_form_submit
+      widget: object
+      collapsed: true
+      fields:
+      - label: Ελληνικά
+        name: el
+        widget: text
+      - label: English
+        name: en
+        widget: text
+      - label: Srpski
+        name: sr
+        widget: text
+      - label: Български
+        name: bg
+        widget: text
+      - label: Română
+        name: ro
+        widget: text
 - name: site_images
   label: Φωτογραφίες Ιστοσελίδας
   files:

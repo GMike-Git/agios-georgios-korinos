@@ -1,0 +1,37 @@
+{
+  "contact_form_title": {
+    "el": "Στείλτε μας ένα μήνυμα",
+    "en": "Send us a message",
+    "sr": "Pošaljite nam poruku",
+    "bg": "Изпратете ни съобщение",
+    "ro": "Trimiteți-ne un mesaj"
+  },
+  "contact_form_name_label": {
+    "el": "Όνομα",
+    "en": "Name",
+    "sr": "Ime",
+    "bg": "Име",
+    "ro": "Nume"
+  },
+  "contact_form_email_label": {
+    "el": "Email",
+    "en": "Email",
+    "sr": "Email",
+    "bg": "Имейл",
+    "ro": "Email"
+  },
+  "contact_form_message_label": {
+    "el": "Μήνυμα",
+    "en": "Message",
+    "sr": "Poruka",
+    "bg": "Съобщение",
+    "ro": "Mesaj"
+  },
+  "contact_form_submit": {
+    "el": "Αποστολή",
+    "en": "Send",
+    "sr": "Pošaljite",
+    "bg": "Изпращане",
+    "ro": "Trimite"
+  }
+}
